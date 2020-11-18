@@ -108,7 +108,7 @@ const obtenerEleccionComputadora = () => {
 	eleccionComputadora = 'Spock'
 		manoComputadora.src = ''
 }
-
+}
 
 const decidirPuntaje = () => {
 	if (eleccionComputadora == 'piedra') {
@@ -193,4 +193,4 @@ const decidirPuntaje = () => {
 		}
 	}
 }
-}
+
