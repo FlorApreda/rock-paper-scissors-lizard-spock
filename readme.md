@@ -6,16 +6,7 @@ Piedra, papel o tijera? No, no, no. Evidencia anecdótica sugiere que con 'Piedr
 
 Es muy sencillo, mirá:
 
-Tijera corta papel,
-papel envuelve a piedra,
-piedra aplasta a lagarto,
-lagarto envenena a Spock,
-Spock rompe tijera,
-tijera decapita a lagarto,
-lagarto devora papel,
-papel refuta a Spock,
-Spock vaporiza piedra,
-Y como siempre: piedra aplasta tijera.
+Tijera corta papel, papel envuelve a piedra, piedra aplasta a lagarto, lagarto envenena a Spock, Spock rompe tijera, tijera decapita a lagarto, lagarto devora papel, papel refuta a Spock, Spock vaporiza piedra, y como siempre: piedra aplasta tijera.
 
 ---
 
