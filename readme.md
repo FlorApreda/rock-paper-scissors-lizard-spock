@@ -8,6 +8,7 @@ Es muy sencillo, mirá:
 
 Tijera corta papel, papel envuelve a piedra, piedra aplasta a lagarto, lagarto envenena a Spock, Spock rompe tijera, tijera decapita a lagarto, lagarto devora papel, papel refuta a Spock, Spock vaporiza piedra, y como siempre: piedra aplasta tijera.
 
+https://florapreda.github.io/rock-paper-scissors-lizard-spock/
 ---
 
 ![header](sheldon.gif)
