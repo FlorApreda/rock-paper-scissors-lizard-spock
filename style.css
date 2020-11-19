@@ -39,18 +39,19 @@ section {
 	font-size: 20px;
 	border-style: solid;
 	border-width: 4px;
-	border-color: #b71b59;
+	border-color: #f06292;
 	border-radius: 50%;
 	cursor: pointer;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	background-color: #fafafa;
+	margin: 10px;
 }
 
 .tablero button:hover {
-	background-color: #b71b59;
-	border-color: #b71b59;
+	background-color: #f06292;
+	border-color: #f06292;
 }
 
 .tablero button:focus {

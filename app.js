@@ -21,13 +21,13 @@ let tablero = document.querySelector('.tablero')
 
 botonPiedra.onclick = () => {
 	resultadoTexto.textContent = '🤨'
-	manoComputadora.src = './assets/piedra_computadora.png'
-	manoUsuarie.src = './assets/piedra_ada.png'
+	manoComputadora.src = './assets/computadora/rock.png'
+	manoUsuarie.src = './assets/usuarie/rock.png'
 	tablero.classList.add('jugando')
 	setTimeout(() => {
 		tablero.classList.remove('jugando')
 		eleccionUsuarie = 'piedra'
-		manoUsuarie.src = './assets/piedra_ada.png'
+		manoUsuarie.src = './assets/usuarie/rock.png'
 		obtenerEleccionComputadora()
 		decidirPuntaje()
 	}, 2000)
@@ -35,13 +35,13 @@ botonPiedra.onclick = () => {
 
 botonPapel.onclick = () => {
 	resultadoTexto.textContent = '🤨'
-	manoComputadora.src = './assets/piedra_computadora.png'
-	manoUsuarie.src = './assets/piedra_ada.png'
+	manoComputadora.src = './assets/computadora/rock.png'
+	manoUsuarie.src = './assets/usuarie/rock.png'
 	tablero.classList.add('jugando')
 	setTimeout(() => {
 		tablero.classList.remove('jugando')
 		eleccionUsuarie = 'papel'
-		manoUsuarie.src = './assets/papel_ada.png'
+		manoUsuarie.src = './assets/usuarie/paper.png'
 		obtenerEleccionComputadora()
 		decidirPuntaje()
 	}, 2000)
@@ -49,13 +49,13 @@ botonPapel.onclick = () => {
 
 botonTijera.onclick = () => {
 	resultadoTexto.textContent = '🤨'
-	manoComputadora.src = './assets/piedra_computadora.png'
-	manoUsuarie.src = './assets/piedra_ada.png'
+	manoComputadora.src = './assets/computadora/rock.png'
+	manoUsuarie.src = './assets/usuarie/rock.png'
 	tablero.classList.add('jugando')
 	setTimeout(() => {
 		tablero.classList.remove('jugando')
 		eleccionUsuarie = 'tijera'
-		manoUsuarie.src = './assets/tijera_ada.png'
+		manoUsuarie.src = './assets/usuarie/scissors.png'
 		obtenerEleccionComputadora()
 		decidirPuntaje()
 	}, 2000)
@@ -63,13 +63,13 @@ botonTijera.onclick = () => {
 
 botonLagarto.onclick = () => {
 	resultadoTexto.textContent = '🤨'
-	manoComputadora.src = './assets/piedra_computadora.png'
-	manoUsuarie.src = './assets/piedra_ada.png'
+	manoComputadora.src = './assets/computadora/rock.png'
+	manoUsuarie.src = './assets/usuarie/rock.png'
 	tablero.classList.add('jugando')
 	setTimeout(() => {
 		tablero.classList.remove('jugando')
 		eleccionUsuarie = 'lagarto'
-		manoUsuarie.src = ''
+		manoUsuarie.src = './assets/usuarie/lizard.png'
 		obtenerEleccionComputadora()
 		decidirPuntaje()
 	}, 2000)
@@ -77,13 +77,13 @@ botonLagarto.onclick = () => {
 
 botonSpock.onclick = () => {
 	resultadoTexto.textContent = '🤨'
-	manoComputadora.src = './assets/piedra_computadora.png'
-	manoUsuarie.src = './assets/piedra_ada.png'
+	manoComputadora.src = './assets/computadora/rock.png'
+	manoUsuarie.src = './assets/usuarie/rock.png'
 	tablero.classList.add('jugando')
 	setTimeout(() => {
 		tablero.classList.remove('jugando')
 		eleccionUsuarie = 'Spock'
-		manoUsuarie.src = ''
+		manoUsuarie.src = './assets/usuarie/spock.png'
 		obtenerEleccionComputadora()
 		decidirPuntaje()
 	}, 2000)
@@ -94,19 +94,19 @@ const obtenerEleccionComputadora = () => {
 	let numeroAlAzar = Math.floor(Math.random() * 3)
 	if (numeroAlAzar == 0) {
 		eleccionComputadora = 'piedra'
-		manoComputadora.src = './assets/piedra_computadora.png'
+		manoComputadora.src = './assets/computadora/rock.png'
 	} else if (numeroAlAzar == 1) {
 		eleccionComputadora = 'papel'
-		manoComputadora.src = './assets/papel_computadora.png'
+		manoComputadora.src = './assets/computadora/paper.png'
 	} else if (numeroAlAzar == 2) {
 		eleccionComputadora = 'tijera'
-		manoComputadora.src = './assets/tijera_computadora.png'
+		manoComputadora.src = './assets/computadora/scissors.png'
 	} else if (numeroAlAzar == 3) {
 		eleccionComputadora = 'lagarto'
-		manoComputadora.src = ''
+		manoComputadora.src = './assets/computadora/lizard.png'
 } else {
 	eleccionComputadora = 'Spock'
-		manoComputadora.src = ''
+		manoComputadora.src = './assets/computadora/spock.png'
 }
 }
 
@@ -150,7 +150,7 @@ const decidirPuntaje = () => {
 			resultadoTexto.textContent = 'Ganaste 😍'
 			puntosUsuarie++
 			puntajesUsuarie.textContent = puntosUsuarie
-		} else if (eleccionUsuaria == 'Spock') {
+		} else if (eleccionUsuarie == 'Spock') {
 			resultadoTexto.textContent = 'Ganaste 😍'
 			puntosUsuarie++
 			puntajesUsuarie.textContent = puntosUsuarie
